@@ -81,6 +81,7 @@ React snippets:
 `Cc - create component`
 
 React Developer Tools:
+
 https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
 
 Finally learned what $0 was (in normal devtools)
@@ -88,6 +89,7 @@ Finally learned what $0 was (in normal devtools)
 "The component that owns a piece of state, should be the one modifying it."
 State is private and internal to a component
 Still have to deal with sending events to edit parent's state though
+
 
 Like:
   - Communication between parent and child elements looks nice -> this.props
