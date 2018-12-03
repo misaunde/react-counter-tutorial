@@ -61,20 +61,23 @@ Angular is a Framework, but React is a View Library. Simple api that reacts to y
 Ups and downs to frameworks vs libraries
 
 Extension for Code:
+
 Simple React Snippets
 Also a format on save extension
 
 Download cli:
+
 `Npm I -g create-react-app@1.5.2`
 
 Create starter app:
+
 `Create-react-app react-app`
 
 
 
 React snippets:
-`Imrc - import React and component`
 
+`Imrc - import React and component`
 `Cc - create component`
 
 React Developer Tools:
