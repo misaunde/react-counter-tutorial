@@ -86,10 +86,10 @@ State is private and internal to a component
 Still have to deal with sending events to edit parent's state though
 
 Like:
-Communication between parent and child elements looks nice -> this.props
-  - assigning any properties to element (BUT PROPS IS READ-ONLY)
-  - transclusion of complex elements is easily done with this.props.children
-  - less configuration than angular
+  	- Communication between parent and child elements looks nice -> this.props
+  	- assigning any properties to element (BUT PROPS IS READ-ONLY)
+  	- transclusion of complex elements is easily done with this.props.children
+  	- less configuration than angular
 
 
 Don't like
@@ -97,5 +97,5 @@ Don't like
 	- Immutable state is nice, but kind of annoying at the same time
 	- Kind of miss services
 	- ReactDOM.render() makes sense, but is a little weird
-    - Seems like having code and html in same file could get crowded: "For all that is good about JSX, there are some valid criticisms: by blurring the line between JavaScript and HTML, it makes it a bit too easy to start writing complex code in your template which should instead be separated out and written elsewhere in your JavaScript view code." https://medium.com/@dalaidunc/10-things-i-love-about-vue-505886ddaff2 
+    	- Seems like having code and html in same file could get crowded: "For all that is good about JSX, there are some valid criticisms: by blurring the line between JavaScript and HTML, it makes it a bit too easy to start writing complex code in your template which should instead be separated out and written elsewhere in your JavaScript view code." https://medium.com/@dalaidunc/10-things-i-love-about-vue-505886ddaff2 
 
