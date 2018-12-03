@@ -65,17 +65,17 @@ Simple React Snippets
 Also a format on save extension
 
 Download cli:
-Npm I -g create-react-app@1.5.2
+`Npm I -g create-react-app@1.5.2`
 
 Create starter app:
-Create-react-app react-app
+`Create-react-app react-app`
 
 
 
 React snippets:
-Imrc - import React and component
+`Imrc - import React and component`
 
-Cc - create component
+`Cc - create component`
 
 React Developer Tools:
 https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
