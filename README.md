@@ -45,3 +45,57 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
+
+### Notes
+
+Learn React - React Crash Course 2018 - React Tutorial with Examples | Mosh
+From <https://www.youtube.com/watch?v=Ke90Tje7VS0> 
+
+
+Angular is a Framework, but React is a View Library. Simple api that reacts to your data chages and updates your view, but you get to choose whatever other libraries, etc you want to do routing, etc for example
+
+Ups and downs to frameworks vs libraries
+
+Extension for Code:
+Simple React Snippets
+Also a format on save extension
+
+Download cli:
+Npm I -g create-react-app@1.5.2
+
+Create starter app:
+Create-react-app react-app
+
+
+
+React snippets:
+Imrc - import React and component
+
+Cc - create component
+
+React Developer Tools:
+https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
+
+Finally learned what $0 was (in normal devtools)
+
+"The component that owns a piece of state, should be the one modifying it."
+State is private and internal to a component
+Still have to deal with sending events to edit parent's state though
+
+Like:
+Communication between parent and child elements looks nice -> this.props
+  - assigning any properties to element (BUT PROPS IS READ-ONLY)
+  - transclusion of complex elements is easily done with this.props.children
+  - less configuration than angular
+
+
+Don't like
+	- Passing functions to event handlers, esp functions that take input parameters
+	- Immutable state is nice, but kind of annoying at the same time
+	- Kind of miss services
+	- ReactDOM.render() makes sense, but is a little weird
+    - Seems like having code and html in same file could get crowded: "For all that is good about JSX, there are some valid criticisms: by blurring the line between JavaScript and HTML, it makes it a bit too easy to start writing complex code in your template which should instead be separated out and written elsewhere in your JavaScript view code." https://medium.com/@dalaidunc/10-things-i-love-about-vue-505886ddaff2 
+
