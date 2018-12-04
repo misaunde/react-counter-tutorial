@@ -17,7 +17,10 @@ Ups and downs to frameworks vs libraries
 Extension for Code:
 
 Simple React Snippets
+
 Also a format on save extension
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Download cli:
 
@@ -62,8 +65,6 @@ Don't like
 
 
 
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
