@@ -49,7 +49,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 
 
-### Notes
+## Study Notes
 
 Learn React - React Crash Course 2018 - React Tutorial with Examples | Mosh
 
